@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Welcome section styles */
+#welcome-section {
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: white;
+}
+.welcome-content h1{
+    color: #333;
+    background-color: rgba(248, 249, 250, 0.7); /* Light gray with 70% opacity */
+    margin-top: -245px;
+    font-size: 75px;
+}
+.welcome-content p{
+    color: #333;
+    background-color: rgba(248, 249, 250, 0.7); /* Light gray with 70% opacity */
+    font-size: 45px;
+}
+
+.welcome-content {
+    max-width: 800px;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.project-tile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.project-tile h2 {
+    margin-top: 0;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-link:hover {
+    background-color: #efe3e3;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
